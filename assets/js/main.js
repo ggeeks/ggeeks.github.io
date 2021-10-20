@@ -272,6 +272,9 @@
     }
     doobJs.i();
 
+    document.getElementById("year").innerHTML = (new Date()).getFullYear()
+    // You can check changing year by changing year in your device settings and wait for some time 
+    let y =  (new Date()).getFullYear()
+    console.log(y)
+
 })(window, document, jQuery)
-
-
