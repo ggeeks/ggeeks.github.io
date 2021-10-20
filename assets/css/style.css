@@ -171,20 +171,20 @@
 
 /* width */
 ::-webkit-scrollbar {
-  width: 12px;
+  width: 8px;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background:  #190301;
-  border-radius: 2px;
+  background:  #000000;
+  border-radius: 5px;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
   background: #65676B;
-  width: 10vh;
-  border-radius: 2px;
+  width: 8vh;
+  border-radius: 5px;
 }
 
 /* Handle on hover */
