@@ -166,6 +166,39 @@
 	--h6: 16px;
 }
 
+
+/* Custom Scrollbar */
+
+/* width */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background:  #190301;
+  border-radius: 2px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #65676B;
+  width: 10vh;
+  border-radius: 2px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #f1f1f1 ;
+}
+/* Arrow up /down */
+/* ::-webkit-scrollbar-button{
+  display: block;
+background-color: #190301;
+color: #011827;
+border-radius: 4px;
+} */
+
 /**
  * Reset Styels
  */
