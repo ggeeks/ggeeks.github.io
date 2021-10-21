@@ -203,6 +203,11 @@ border-radius: 4px;
  * Reset Styels
  */
 
+
+.bg-badge{
+	background-color: purple;
+}
+
 .mar-points {
 	font-size: 25px;
 }

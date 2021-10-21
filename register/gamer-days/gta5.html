@@ -162,7 +162,7 @@
                             <div class="section-title text-center" data-sal="slide-up" data-sal-duration="700" data-sal-delay="100">
                                 <br><br>
                                 <h4 class="subtitle "><span class="theme-gradient">Registration Form</span></h4>
-                                <h2 class="title w-600 mb--20">Skribbl</h2>
+                                <h2 class="title w-600 mb--20">Rocket League</h2>
                             </div>
                         </div>
                     </div>
@@ -178,7 +178,7 @@
                     <div class="row mt--40 row--15">
                         <div class="col-lg-3"></div>
                         <div class="col-lg-6">
-                            <form class="contact-form-1 rwt-dynamic-form" method="post" autocomplete="off" name="Skribbl-Form">
+                            <form class="contact-form-1 rwt-dynamic-form" method="post" autocomplete="off" name="GTA-Form">
                                 <div class="form-group">
                                     <input type="text" name="name" id="name" placeholder="Name*" required>
                                 </div>
@@ -261,8 +261,8 @@
     </main>
 
     <script>
-        const scriptURL = 'https://script.google.com/macros/s/AKfycbyRdhkoX7fv1nPUFaINKnDpP4FRbD51LNjDEfhfgGIckh7QXuOS5yqzkb_yTrzGahyp/exec'
-            const form = document.forms['Skribbl-Form']
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwW-KaYbA3GLitO2MHToDI5yf9u9ZrYOwKNB1wKUSxrOW84CjbvBP2dZbBDNwBZW2q0Nw/exec'
+            const form = document.forms['GTA-Form']
             form.addEventListener('submit', e => {
               e.preventDefault()
               fetch(scriptURL, { method: 'POST', body: new FormData(form)})
@@ -271,7 +271,7 @@
                 resetFunc()
             })
             function resetFunc(){
-                document.getElementById("Skribbl-Form").reset();
+                document.getElementById("GTA-Form").reset();
             }
     </script>
 
