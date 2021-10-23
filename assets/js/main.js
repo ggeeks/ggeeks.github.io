@@ -272,6 +272,6 @@
     }
     doobJs.i();
 
+    document.getElementById("year").innerHTML = (new Date()).getFullYear()
+
 })(window, document, jQuery)
-
-
