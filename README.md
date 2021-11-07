@@ -12,5 +12,5 @@ Thanks a Ton for Showing Your Interest in Contributing to our Repo! Pull request
 We have listed few issues or will be listing in the near future.<br><br>
 These issue are our first priority but if you found out any other issue or want to make the website more amazing, you can open an issue and we will discuss what you would like to change. Then accordingly you will be assigned that issue.
 ## Join Us
-* Join us as <strong>Member</strong>, Fill [this](http://bit.ly/GGeeksForm1) form.
+* Join us as <strong>Member</strong>, Fill [this](https://gaminggeeks.online/register/) form.
 * Join us as <strong>Core Member</strong>, Fill [this](https://forms.gle/ENgHo2p4WKbCMkZz6) form.
