@@ -291,20 +291,45 @@
         </div>
         <!-- End Seperator Area  -->
 
+        <style>
+            .rn-box-card .inner,
+            .team-style-default .inner {
+                background: linear-gradient( 180deg, var(--color-lessdark) 20%, rgba(19, 19, 19, 0.4));
+                -webkit-backdrop-filter: blur(4px) opacity(0.95);
+                backdrop-filter: blur(4px) opacity(0.95);
+                border-radius: var(--radius-big);
+                margin: 40px 0;
+            }
+            .rn-box-card .inner .thumbnail,
+            .team-style-default .inner .thumbnail {
+                max-width: 200px;
+                max-height: 200px;
+                border-radius: 100%;
+                border: 6px solid var(--color-lessdark);
+                top: -120px;
+                position: absolute;
+                left: 50%;
+                transform: translateX(-50%);
+                min-width: 200px;
+                min-height: 200px;
+                overflow: hidden;
+            }
+        </style>
+
         <!-- Start Team Area  -->
         <div class="rwt-team-area rn-section-gap">
             <div class="container">
-                <div class="row">
+                <div class="row" style="margin-bottom: 40px;">
                     <div class="col-lg-12">
-                        <div class="section-title text-center" data-sal="slide-up" data-sal-duration="700" data-sal-delay="100">
+                        <div class="section-title text-center" >
                             <h4 class="subtitle "><span class="theme-gradient">Our Team</span></h4>
                             <h2 class="title w-600 mb--20">Team</h2>
                         </div>
                     </div>
                 </div>
                 <div class="row row--15">
-                    <div class="col-lg-1" data-sal="slide-up" data-sal-duration="700"></div>
-                    <div class="col-lg-5 col-md-6 col-12 mt--10" data-sal="slide-up" data-sal-duration="700">
+                    <div class="col-lg-1" ></div>
+                    <div class="col-lg-5 col-md-6 col-12 mt--10">
                         <div class="rn-team team-style-default">
                             <div class="inner">
                                 <div class="thumbnail">
@@ -331,7 +356,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-5 col-md-6 col-12 mt--10" data-sal="slide-up" data-sal-duration="700" data-sal-delay="100">
+                    <div class="col-lg-5 col-md-6 col-12 mt--10" >
                         <div class="rn-team team-style-default ">
                             <div class="inner">
                                 <div class="thumbnail">
@@ -358,8 +383,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="row row--15">
-                    <div class="col-lg-4 col-md-6 col-12 mt--10" data-sal="slide-up" data-sal-duration="700" data-sal-delay="100">
+                <div class="row row--15" style="margin-top: 20px;">
+                    <div class="col-lg-4 col-md-6 col-12 mt--10" >
                         <div class="rn-team team-style-default ">
                             <div class="inner">
                                 <div class="thumbnail">
@@ -385,7 +410,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-4 col-md-6 col-12 mt--10" data-sal="slide-up" data-sal-duration="700">
+                    <div class="col-lg-4 col-md-6 col-12 mt--10" >
                         <div class="rn-team team-style-default ">
                             <div class="inner">
                                 <div class="thumbnail">
@@ -411,7 +436,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-4 col-md-6 col-12 mt--10" data-sal="slide-up" data-sal-duration="700" data-sal-delay="100">
+                    <div class="col-lg-4 col-md-6 col-12 mt--10" >
                         <div class="rn-team team-style-default">
                             <div class="inner">
                                 <div class="thumbnail">
@@ -437,6 +462,18 @@
                         </div>
                     </div>
                 </div>
+                <!-- Start Load More Button  -->
+                <div class="row row--15">
+                    <div class="col-lg-12">
+                        <div class="rwt-load-more text-center mt--60">
+                            <a href="../team" class="btn btn-default btn-large btn-icon magic-hover magic-hover__square">
+                                <span>Load More
+									<span class="icon feather-loader"></span></span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Load More Button  -->
             </div>
         </div>
         <!-- End Team Area  -->
