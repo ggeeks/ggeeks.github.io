@@ -27,7 +27,7 @@
 <body class="active-dark-mode">
     <main class="page-wrapper">
         <!-- Start Header Top Area  -->
-        <div class="header-top-news bg-image1">
+        <!-- <div class="header-top-news bg-image1">
             <div class="wrapper">
                 <div class="container">
                     <div class="row">
@@ -35,7 +35,6 @@
                             <div class="inner">
                                 <div class="content">
                                     <span class="rn-badge">New Event- GAMER DAYS</span>
-                                    <!-- <span class="news-text">Gamer Days</span> -->
                                 </div>
                                 <div class="right-button">
                                     <a class="btn-read-more magic-hover magic-hover__square" href="#">
@@ -52,7 +51,7 @@
                     <i class="feather-x"></i>
                 </button>
             </div>
-        </div>
+        </div> -->
         <!-- End Header Top Area  -->
         <!-- Start Header Area  -->
         <header class="rn-header header-default header-transparent header-sticky">
@@ -158,12 +157,12 @@
                             <div class="section-title text-center" data-sal="slide-up" data-sal-duration="700" data-sal-delay="100">
                                 <br><br>
                                 <h4 class="subtitle "><span class="theme-gradient">Registration Form</span></h4>
-                                <h2 class="title w-600 mb--20">Battleground India Mobile</h2>
+                                <h2 class="title w-600 mb--20">Web Game Development</h2>
                             </div>
                         </div>
                     </div>
 
-                    <div class="row mt--40 row--15">
+                    <!-- <div class="row mt--40 row--15">
                         <div class="col-lg-3"></div>
                         <div class="col-lg-6">
                             <h5>DESCRIPTION</h5>
@@ -185,31 +184,37 @@
                                 <p>Team Leader should be Unique for a SQUAD/TRIO/DUO, This will be used for pairing you with your Team.</p>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
 
                     <div class="row mt--40 row--15">
                         <div class="col-lg-3"></div>
                         <div class="col-lg-6">
-                            <form class="contact-form-1 rwt-dynamic-form" method="post" autocomplete="off" name="BGMI-Form">
+                            <form class="contact-form-1 rwt-dynamic-form" method="post" autocomplete="off" name="Web-Game-Dev">
                                 <div class="form-group">
-                                    <input type="text" name="name" id="name" placeholder="Name*" required>
+                                    <input type="text" id="name" name="Name" placeholder="Your Name*" required>
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" name="phone-number" id="phone-number" placeholder="Phone Number*" required>
+                                    <input type="text" id="phone-number" name="Phone-Number" placeholder="Phone Number*" required>
                                 </div>
                                 <div class="form-group">
-                                    <input type="email" id="email" name="email" placeholder="Email*" required>
+                                    <input type="email" id="email" name="Email" placeholder="Your Email*" required>
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" id="institute" name="institute" placeholder="Institute Name*" required>
+                                    <input type="text" id="institute" name="Institute" placeholder="Your Institute Name*" required>
                                 </div>
                                 <div class="form-group">
+                                    <input type="text" id="techinal-qualities" name="Techinal-Qualities" placeholder="What are your Technical Interests?">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" id="suggestion-expectation" name="Suggestion/Expectation" placeholder="Any Suggestions/Expectations?">
+                                </div>
+                                <!-- <div class="form-group">
                                     <input type="text" id="discord" name="discord" placeholder="Discord Username">
                                 </div>
                                 <div class="form-group">
                                     <input type="text" id="team-leader" name="team-leader" placeholder="Team Leader (In Game Name)">
                                 </div>
-                                <p>Must read <a class="magic-hover magic-hover__square" style="color:steelblue" href="../../events/gamer-days/terms&conditions">Terms & Conditions</a> before Submission</p>
+                                <p>Must read <a class="magic-hover magic-hover__square" style="color:steelblue" href="../../events/gamer-days/terms&conditions">Terms & Conditions</a> before Submission</p> -->
                                 <div class="form-group text-center">
                                     <button name="submit" type="submit" id="submit" class="btn-default btn-large rn-btn" onclick="alert('Please Wait...');">
                                         <span>Submit Now</span>
@@ -277,8 +282,8 @@
 
 
     <script>
-        const scriptURL = 'https://script.google.com/macros/s/AKfycbxW7QUB4zoKzWhWAAzhZ08mjO6Cmz5yxHEUmjhwpOk5iGTwKz4g-LSkw5z9hUz_HQzUuQ/exec'
-        const form = document.forms['BGMI-Form']
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbziDeZWTny5xkZobaCAhTKc7bxLtpoWOChcs9fi6rFROUPRStMpzfDoC8X1F5jmy4Qu/exec'
+        const form = document.forms['Web-Game-Dev']
         form.addEventListener('submit', e => {
             e.preventDefault()
             fetch(scriptURL, {
@@ -291,7 +296,7 @@
         })
 
         function resetFunc() {
-            document.getElementById("BGMI-Form").reset();
+            document.getElementById("Web-Game-Dev").reset();
         }
     </script>
 
