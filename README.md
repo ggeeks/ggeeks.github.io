@@ -15,6 +15,6 @@
 
 <h2>Join Us</h2>
 <ul>
-    <li>Join us as <strong>Member</strong>, Fill [this](https://gaminggeeks.online/register/) form.</li>
-    <li>Join us as <strong>Core Member</strong>, Fill [this](https://gaminggeeks.online/links/recruitment-form) form.</li>
+    <li>Join us as <strong>Member</strong>, Fill <a href="https://gaminggeeks.online/register/">this</a> form.</li>
+    <li>Join us as <strong>Core Member</strong>, Fill <a href="https://gaminggeeks.online/links/recruitment-form">this</a> form.</li>
 </ul>    
