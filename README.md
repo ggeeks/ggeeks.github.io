@@ -8,7 +8,6 @@
     <li>It is managed by 30+ students from different IITs, NITs, Thapar University, Chitkara University and other prominent Colleges/Universities of India.</li>
 </ul>
 
-
 <h2>Contributing Guidelines</h2>
 <p>Thanks a Ton for Showing Your Interest in Contributing to our Repo! Pull requests are Welcome.</p>
 <p>We have listed few issues or will be listing in the near future.</p>
@@ -18,4 +17,4 @@
 <ul>
     <li>Join us as <strong>Member</strong>, Fill [this](https://gaminggeeks.online/register/) form.</li>
     <li>Join us as <strong>Core Member</strong>, Fill [this](https://gaminggeeks.online/links/recruitment-form) form.</li>
-</ul>
+</ul>    
