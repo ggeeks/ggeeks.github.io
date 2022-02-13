@@ -197,6 +197,12 @@
 }
 
 
+/* Event Card Hover */
+
+.event-card-hover:hover{
+    color: var(--color-primary);
+}
+
 /* Custom Scrollbar */
 
 
